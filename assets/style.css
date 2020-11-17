@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #343841;
+    color: lightgrey;
+} 
+
+#nav { 
+    position: fixed;
+}
+
+.page-header {
+    margin-top: 10px;
+    padding-left: 150px;
+}
+
+#info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    padding: 20px;
+    float: left;
+}
+
+#main {
+    margin: 30px;
+    padding: 10px;
+} 
+
+#band {
+    margin:30px;
+    padding: 10px;
+} 
+
+#names {
+    margin: 30px;
+    padding:10px;
+    float: left; 
+} 
+
+ul { 
+    padding-left: 16px;
+}
+
+#michelle {
+    margin: 5px;
+    padding: 2px;
+}
+
+#cover { 
+    margin: 5px;
+    padding: 2px;
+}
+
+#middle { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px; 
+    text-align: center;
+} 
+
+.footer {  
+    padding: 50px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3px;
+    text-align: center;    
+    color: lightgrey 
+}
+   
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
